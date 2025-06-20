@@ -23,4 +23,4 @@ npm install
 npm start
 ```
 
-Feel free to explore, modify, and experiment 😁
+Feel free to explore, modify and experiment 😁
