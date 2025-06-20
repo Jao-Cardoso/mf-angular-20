@@ -21,5 +21,6 @@ After cloning the repository and installing dependencies, you can run all applic
 ```bash
 npm install
 npm start
+```
 
 Feel free to explore, modify, and experiment 😁
