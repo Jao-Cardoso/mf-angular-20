@@ -1,59 +1,25 @@
-# MfAngular20
+# Angular Microfrontends with Native Federation
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.2.
+This is a study project demonstrating how to build Micro Frontends using **Angular 20** and the **@angular-architects/native-federation** module federation plugin.
 
-## Development server
+The project is structured into:
+- A **Shell** application that serves as the host
+- Two **Remote** applications (first-mf and second-mf)
 
-To start a local development server, run:
+Each remote is independently deployable and consumed by the shell using module federation.
 
-```bash
-ng serve
-```
+## 🔧 Technologies
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Angular 20
+- @angular-architects/native-federation
+- Webpack 5 Module Federation
 
-## Code scaffolding
+## 🚀 Getting Started
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+After cloning the repository and installing dependencies, you can run all applications with a single command:
 
 ```bash
-ng generate --help
-```
+npm install
+npm start
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Feel free to explore, modify, and experiment 😁
