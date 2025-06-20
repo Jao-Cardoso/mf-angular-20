@@ -22,5 +22,25 @@
     "typeCheckHostBindings": true,
     "strictTemplates": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/shell/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/shell/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/first-mf/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/first-mf/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/second-mf/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/second-mf/tsconfig.spec.json"
+    }
+  ]
 }

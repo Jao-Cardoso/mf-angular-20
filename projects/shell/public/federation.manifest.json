@@ -1,0 +1,4 @@
+{
+	"firstMf": "http://localhost:4201/remoteEntry.json",
+	"secondMf": "http://localhost:4202/remoteEntry.json"
+}
